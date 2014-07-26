@@ -13,7 +13,22 @@ This script does the following.
 
 A num parameter can be passed to the run_analysis() function and it can be used to load a small number of records from the file for debuggin/testing purpose.
 
-Details explaination can be found in the comments inside th run_analysis.R
+Details explaination can also be found in the comments inside th run_analysis.R
+
+* Read column names for the data file from from features.txt        
+* Read activity label from activity_labels.txt
+* Read train data, subject and label from the files
+* Column combine the subject, lable and data
+* Read test data, subject and label from the files
+* Column combine the subject, lable and data
+* Row combine the train and test data
+* Extract only the mean and standard derivation data columns
+* Column combine the subject, activility label and result data set
+* Aggregate the result to arrive at the tidy data set
+* Remove the subject and label column from the aggregated result
+* Rename the Group 1 and Group 2 to subject and 
+* Write out the tidyData to a txt file for submission
+
 
 
 Code Book
